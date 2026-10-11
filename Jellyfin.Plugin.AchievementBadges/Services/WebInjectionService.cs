@@ -38,9 +38,9 @@ public class WebInjectionService : IHostedService
     private static readonly string VerTag = ClientAssetVersion.QueryTag;
     private static readonly string ScriptBlock =
         MarkerStart +
-        "<script src=\"/Plugins/AchievementBadges/client-script/sidebar" + VerTag + "\"></script>" +
-        "<script src=\"/Plugins/AchievementBadges/client-script/standalone" + VerTag + "\" defer></script>" +
-        "<script src=\"/Plugins/AchievementBadges/client-script/enhance" + VerTag + "\" defer></script>" +
+        "<script src=\"../Plugins/AchievementBadges/client-script/sidebar" + VerTag + "\"></script>" +
+        "<script src=\"../Plugins/AchievementBadges/client-script/standalone" + VerTag + "\" defer></script>" +
+        "<script src=\"../Plugins/AchievementBadges/client-script/enhance" + VerTag + "\" defer></script>" +
         MarkerEnd;
 
     // Embedded plugin-version stamp. When it changes across upgrades we
